@@ -1,3 +1,18 @@
+document.querySelector('.menu-toggle').addEventListener('click', function () {
+    const navMenu = document.querySelector('.nav-menu');
+    const menuToggle = document.querySelector('.menu-toggle');
+    
+    navMenu.classList.toggle('open');
+    
+    if (navMenu.classList.contains('open')) {
+        menuToggle.innerHTML = '✖';
+    } else {
+        menuToggle.innerHTML = '☰';
+    }
+});
+
+
+
 
 const observer = new IntersectionObserver(
     (entries) => {
