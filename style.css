@@ -105,6 +105,9 @@ body {
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
+        position: absolute;
+        top: 12px;
+        left: 5px;
     }
 
     .nav-menu {
@@ -831,7 +834,7 @@ h1 {
 
     .social-links {
         align-items: center; 
-        gap: 1rem; 
+        gap: 0.5rem; 
     }
 
     .social-icon {
